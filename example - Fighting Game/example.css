@@ -149,6 +149,7 @@ body {
   padding: 0.15rem 0.05rem;
   width: 0.5rem;
 }
+/*
 .card.rank1:before,
 .card.rank1:after {
   content: "A";
@@ -201,53 +202,54 @@ body {
 .card.rank13:after {
   content: "K";
 }
+*/
 .card.spades.rank1 .face {
-  background-image: url("faces/0_1.svg");
+  background-image: url("fighting_game_faces/Jab.svg");
 }
 .card.spades.rank2 .face {
-  background-image: url("faces/0_2.svg");
+  background-image: url("fighting_game_faces/Arm_block.svg");
 }
 .card.spades.rank3 .face {
-  background-image: url("faces/0_3.svg");
+  background-image: url("fighting_game_faces/Crouch.svg");
 }
 .card.spades.rank4 .face {
-  background-image: url("faces/0_4.svg");
+  background-image: url("fighting_game_faces/Hip_throw.svg");
 }
 .card.spades.rank5 .face {
-  background-image: url("faces/0_5.svg");
+  background-image: url("fighting_game_faces/Leap.svg");
 }
 .card.spades.rank6 .face {
-  background-image: url("faces/0_6.svg");
+  background-image: url("fighting_game_faces/Low_kick.svg");
 }
 .card.spades.rank7 .face {
-  background-image: url("faces/0_7.svg");
+  background-image: url("fighting_game_faces/Straight.svg");
 }
 .card.spades.rank8 .face {
-  background-image: url("faces/0_8.svg");
+  background-image: url("fighting_game_faces/Uppercut.svg");
 }
 .card.spades.rank9 .face {
-  background-image: url("faces/0_9.svg");
+  background-image: url("fighting_game_faces/Jab.svg");
 }
 .card.spades.rank10 .face {
-  background-image: url("faces/0_10.svg");
+  background-image: url("fighting_game_faces/Arm_block.svg");
 }
 .card.spades.rank11 .face {
-  background-image: url("faces/0_11.svg");
+  background-image: url("fighting_game_faces/Crouch.svg");
 }
 .card.spades.rank12 .face {
-  background-image: url("faces/0_12.svg");
+  background-image: url("fighting_game_faces/Hip_throw.svg");
 }
 .card.spades.rank13 .face {
-  background-image: url("faces/0_13.svg");
+  background-image: url("fighting_game_faces/Leap.svg");
 }
 .card.hearts.rank1 .face {
-  background-image: url("faces/1_1.svg");
+  background-image: url("fighting_game_faces/Low_kick.svg");
 }
 .card.hearts.rank2 .face {
-  background-image: url("faces/1_2.svg");
+  background-image: url("fighting_game_faces/Straight.svg");
 }
 .card.hearts.rank3 .face {
-  background-image: url("faces/1_3.svg");
+  background-image: url("fighting_game_faces/Uppercut.svg");
 }
 .card.hearts.rank4 .face {
   background-image: url("faces/1_4.svg");

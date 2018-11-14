@@ -923,7 +923,7 @@ var Deck = (function () {
 
   function Deck(jokers) {
     // init cards array
-    var cards = new Array(jokers ? 55 : 52);
+    var cards = new Array(jokers ? 19 : 16);
 
     var $el = createElement('div');
     var self = observable({ mount: mount, unmount: unmount, cards: cards, $el: $el });
